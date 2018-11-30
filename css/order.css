@@ -1,0 +1,45 @@
+@media (min-width: 300px) {
+    header {
+        margin-top: -2%;
+        min-height: 80px;
+    }
+    
+    nav div {
+        display: flex;
+    }
+    
+    nav div .main-menu {
+        flex: 1;
+        font-size: 7px;
+        justify-content: stretch;
+        align-items: stretch;
+        text-align: center;
+        padding: 0%;
+    }
+}
+
+@media (min-width: 450px) {
+main input {
+        align-items: center;
+        justify-content: center;
+        margin: 0, auto;
+}
+main div .info {
+            align-items: left;
+        justify-content: left;
+    }  
+
+/*main div form .client {
+        margin-left: -20%;
+        padding-right: 20%;
+        margin-right: 30%;
+}
+*/
+main div .muve-info {
+    	display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-column-gap: 5px;
+		justify-content: stretch;
+        align-items: stretch;
+    }  
+}

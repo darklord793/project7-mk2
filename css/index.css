@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2|Spicy+Rice');
 
 body {
-    min-width: 220px;
-    max-width: 980px;
     background: url(http://99px.ru/sstorage/86/2017/04/11904171049591459.gif) fixed;
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
     -background-height: 980px;
+    
 }
 
 body .second-background {
     background: rgba(255, 255, 255, 0.4);
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 header {
@@ -750,7 +747,6 @@ footer .main-second-footer h5 {
 @media (min-width: 950px) {
     body .second-background  {
 	width: 100%;
-	margin-left: 18%;
-	margin-right: 18%;
+	margin: auto;
 	}
 }
