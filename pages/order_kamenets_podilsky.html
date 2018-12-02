@@ -30,11 +30,32 @@
 			</div>
 		</nav>
 		<main class="margin" id="home">
+			<div class="order">
 			<hr class="line">
 			<h4>Kamenets Podilsky</h4>
 			<hr class="line">
 			<div class="text">
+				<p><big>We invite you to know the beauty of the picturesque Podillya, caves and irresistible fortresses!</big></p>
+				<p><strong>Day 1:</strong> Departure from Lviv (08:00) - Kamyanets-Podilsky (excursion along the fortress, lunch, city tour, settlement to the hotel)</p>
+				<p><strong>Day 2:</strong> Kamenets-Podilskyi (breakfast) - Khotyn (excursion along the fortress) - Krivecha (lunch) - Bilche-Zolota (overview of Verteba cave) - Lviv (return at 22:30).</p>
+				<p><big><big>Price - <span class="price"><big>950</big></span></big> UAH</big></p>
+				<p><strong>The price includes:</strong> travel to the comfortable Euro-class bus, guide-guided tour guide, excursion service in museums, accommodation, travel insurance.</p>
+				<p><strong>Extras are paid:</strong> entrance tickets to museums and food.</p>
+				<p><strong>Entrance fee:</strong></p>
+				<p>- Verteba cave (general, pension, student - <span class="price"><big>20</big></span> UAH, students - <span class="price"><big>15</big></span> UAH );</p>
+				<p>- Khotyn fortress (adults - <span class="price"><big>50</big></span> UAH, students and students - <span class="price"><big>25</big></span> UAH);</p>
+				<p>- Kamenetz fortress (adults <span class="price"><big>40</big></span> UAH, students and students - <span class="price"><big>20</big></span> UAH).</p>
+				<p><strong>Accommodation: </strong><a href="https://www.7dniv.ua/ua/hotel-kamenec-podolskij"> hotel "7 days" </a> in Kamyanets-Podilsky. Comfortable double rooms with amenities in the room.</p>
+			</div>
+			<div class="button-container-best-tours">
+				<a href="kamenets_podilsky.html"><button class="button-best-tours">back</button></a>
+			</div>
+			<hr class="line">
+			<h5>Kamenets Podilsky</h5>
+			<hr class="line">
+			<div class="text">
 			    <form method="post" action="https://formspree.io/darklord793@gmail.com">
+                    <br>
                     <div class="muve-info">
 				    	<label for="client-name">Name:</label>
 				    	<input type="text" id="client-name" class="client" placeholder="Name"
@@ -55,14 +76,33 @@
 		    			<input type="text" id="client-phone" class="client" placeholder="Phone"
 		    			required name="client-phone"></p>
 					</div>
+					<div class="muve-info">	
+						<label for="client-phone">Number of people:</label>
+		    			<input type="text" id="client-number-of-people" class="client" placeholder="1"
+		    			required name="client-number-of-people"></p>
+					</div>
 					<br>
-                    <label>Gender:</label>
-			    	<label><input type="radio" name="gender" value="male"> Male</label>
-			    	<label><input type="radio" name="gender" value="female"> Female</label>
-			    	<label><input type="radio" name="gender" value="other"> Other</label>
-			    	<label><input type="radio" name="gender" value="other"> Other</label>
+					<p><select autofocus name="date[]" required>
+						<option selected disabled>Select a date</option>
+						<option value="9 December 2018">9 December 2018</option>
+						<option value="30 December 2018">30 December 2018</option>
+						<option value="20 January 2018">20 January 2018</option>
+						<option value="10 February 2018">10 February 2018</option>
+					</select></p>
+					<br>
+					<div>
+						<section>
+							<p><strong>Please сonfirm the correctness of the entered data</strong></p>
+							<div>
+							<button class="html-ajax"><input type="submit" formtarget="<forms> | _blank"></button>
+							<button class="nan-html-ajax"><input type="reset"></button>
+							</div>
+							<div class="html-placeholder"></div>
+						</section>
+					</div>
 				</form>
-			</div>	
+			</div>
+			</div>
 		</main>
 		<article class="margin-best-tours" id="the_best_tours">
 			<div class="main-best-tours">
@@ -167,6 +207,8 @@
 			</div>
 		</footer>
 	</div>	
+	
+    <script src="../js/order.js"></script>	
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUmklY6qoKDNU4MmuCfhvhZFMlHFjoP0g"></script>
 </body>						
 </html>

@@ -1,3 +1,96 @@
+.price {
+    color: rgb(19, 5, 206);
+}
+
+.html-ajax {
+    margin-left: 10%;
+}
+.nan-html-ajax {
+    margin-left: 10%;
+}
+
+main .order p {
+    font-size: 14px;
+    text-align: left;
+    font-family: 'Exo 2', sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+main label {
+    font-size: 14px;
+    text-align: left;
+    font-family: 'Exo 2', sans-serif;
+    padding-left: 10%;
+    padding-right: 2%;
+}
+
+main .order h4 {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+main .order h5 {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+main .order a {
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+main .order a:hover {
+    text-decoration: underline;
+}
+
+main .order a:link {
+    color: black;
+    text-decoration: none;
+}
+
+article .main-calendar a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+main .order a:active {
+    text-decoration: none;
+    color: black;
+}
+
+main .order a:hover {
+    color: #e5a239;
+}
+
+
+main .button-container-best-tours {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .button-container-best-tours .button-best-tours {
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    min-width: 100px;
+}
+
 @media (min-width: 300px) {
     header {
         margin-top: -2%;
@@ -28,13 +121,6 @@ main div .info {
             align-items: left;
         justify-content: left;
     }  
-
-/*main div form .client {
-        margin-left: -20%;
-        padding-right: 20%;
-        margin-right: 30%;
-}
-*/
 main div .muve-info {
     	display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
