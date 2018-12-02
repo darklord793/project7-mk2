@@ -160,7 +160,7 @@ main .button-container-best-tours .button-best-tours {
     	width: 100%;
     	height: 200px;
     }
-    main  .muve-main {
+    main div.muve-main {
         display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-column-gap: 5px;
