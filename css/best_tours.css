@@ -1,3 +1,10 @@
+.gsInformer {
+		justify-content: center;
+        align-items: center;
+}
+.price {
+    color: rgb(19, 5, 206);
+}
 
 main .map {
 	width: 100%;
@@ -127,13 +134,17 @@ main .main-portfolio {
 [class^="scroll"] input:nth-of-type(7):checked~div img {
     right: 600%;
 }
+main div .container-best-tours {
+    padding: 5px;
+    margin: 5px auto;
+}
 
-main .button-container-best-tours {
+main div .button-container-best-tours {
     display: flex;
     justify-content: space-around;
 }
 
-main .button-container-best-tours .button-best-tours {
+main div .button-container-best-tours form .button-best-tours {
     padding: 5px;
     text-align: center;
     text-decoration: none;
