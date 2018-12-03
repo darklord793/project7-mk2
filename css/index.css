@@ -624,7 +624,7 @@ footer .main-second-footer h5 {
     
     footer div .muve-first-footer {
     	display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
 		grid-column-gap: 5px;
 		justify-content: stretch;
         align-items: stretch;
