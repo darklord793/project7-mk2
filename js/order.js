@@ -7,6 +7,6 @@ function getHtmlAjax() {
            document.querySelector('.html-placeholder').innerHTML = xhr.responseText;
         }
     }
-    xhr.open('GET', '../pages/order-ajax.html', true);
+    xhr.open('GET', '../pages/order_ajax.html', true);
     xhr.send();
 }
