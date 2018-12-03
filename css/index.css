@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2|Spicy+Rice');
 
 body {
-    background: url(http://99px.ru/sstorage/86/2017/04/11904171049591459.gif) fixed;
+    background: url(../content/background_waterfall.gif) fixed;
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
@@ -38,7 +38,7 @@ header .header-logo h1 {
     }
 
 div .banner {
-    background-image: url(../content/m_hoverla5.png);
+    background-image: url(../content/m_hoverla/m_hoverla5.png);
     background-size: cover;
     background-position: center;
     min-height: 400px;
